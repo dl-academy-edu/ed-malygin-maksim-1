@@ -4,7 +4,7 @@ body {
 h1{
 
 }
-/*комментарий*/
+/*стили сделал для себя, а то без них невозможно по виду сайта что-то понять*/
 .header-nav{
         display: flex;
 }
@@ -17,9 +17,13 @@ h1{
 .header-nav-right{
         display: flex;
 }
-.first-block-text{
+
+
+.promo-block-text{
     display: flex;
 }
+
+
 .product-list{
     display: flex;
 }
@@ -28,33 +32,38 @@ h1{
 }
 
 
-.third-block{
+.services-block{
     display: flex;
 }
-.third-block-text{
+.services-block-title{
+    display: none;
+}
+.services-block-text{
     display: flex;
     flex-direction: column;
 }
 
 
-.fourth-block-title{
+.partners-block-title{
     display:none;
 }
-.fourth-block-list{
+.partners-block-list{
     display: flex;
 }
 
 
-.fifth-block{
+.buy-and-contacts-block{
     display: flex;
 }
-.text-over-the-line{
+
+
+.footer-links-connects{
     display: flex; 
 }
 .social-links{
     display: flex; 
     flex-direction: row;
 }
-.text-under-the-line{
+.footer-block{
     display: flex; 
 }
