@@ -1,0 +1,60 @@
+body {
+
+}
+h1{
+
+}
+/*комментарий*/
+.header-nav{
+        display: flex;
+}
+.header-nav-left{
+        display: flex;
+}
+.nav-block{
+        margin: 10px;
+}
+.header-nav-right{
+        display: flex;
+}
+.first-block-text{
+    display: flex;
+}
+.product-list{
+    display: flex;
+}
+.product-nav{
+    display: flex;
+}
+
+
+.third-block{
+    display: flex;
+}
+.third-block-text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fourth-block-title{
+    display:none;
+}
+.fourth-block-list{
+    display: flex;
+}
+
+
+.fifth-block{
+    display: flex;
+}
+.text-over-the-line{
+    display: flex; 
+}
+.social-links{
+    display: flex; 
+    flex-direction: row;
+}
+.text-under-the-line{
+    display: flex; 
+}
