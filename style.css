@@ -1,0 +1,69 @@
+body {
+
+}
+h1{
+
+}
+/*стили сделал для себя, а то без них невозможно по виду сайта что-то понять*/
+.header-nav{
+        display: flex;
+}
+.header-nav-left{
+        display: flex;
+}
+.nav-block{
+        margin: 10px;
+}
+.header-nav-right{
+        display: flex;
+}
+
+
+.promo-block-text{
+    display: flex;
+}
+
+
+.product-list{
+    display: flex;
+}
+.product-nav{
+    display: flex;
+}
+
+
+.services-block{
+    display: flex;
+}
+.services-block-title{
+    display: none;
+}
+.services-block-text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.partners-block-title{
+    display:none;
+}
+.partners-block-list{
+    display: flex;
+}
+
+
+.buy-and-contacts-block{
+    display: flex;
+}
+
+
+.footer-links-connects{
+    display: flex; 
+}
+.social-links{
+    display: flex; 
+    flex-direction: row;
+}
+.footer-block{
+    display: flex; 
+}
