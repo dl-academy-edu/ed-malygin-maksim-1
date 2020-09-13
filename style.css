@@ -19,7 +19,7 @@ h1{
 }
 
 
-.promo-block-text{
+.promo-block-main{
     display: flex;
 }
 
@@ -35,16 +35,14 @@ h1{
 .services-block{
     display: flex;
 }
-.services-block-title{
-    display: none;
-}
+
 .services-block-text{
     display: flex;
     flex-direction: column;
 }
 
 
-.partners-block-title{
+.hidden{
     display:none;
 }
 .partners-block-list{
