@@ -1,67 +1,52 @@
-body {
-
+/* META  */
+body{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
-h1{
-
+ul{
+    padding: 0;
 }
-/*стили сделал для себя, а то без них невозможно по виду сайта что-то понять*/
+.border{
+    margin-left: 110px;
+    margin-right: 110px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+a:hover{
+    opacity: 0.5;
+}
+a:active{
+    opacity: 0.2;
+}
+
+/*HEADER*/
+.header{
+    margin-top: 50px;
+}
 .header-nav{
-        display: flex;
 }
-.header-nav-left{
-        display: flex;
-}
-.nav-block{
-        margin: 10px;
-}
-.header-nav-right{
-        display: flex;
-}
-
-
-.promo-block-main{
+.header-nav-items{
     display: flex;
-}
-
-
-.product-list{
+    align-items: center;
     display: flex;
+    list-style: none;
 }
-.product-nav{
-    display: flex;
+.logo{
+    margin-right: 50px;
 }
-
-
-.services-block{
-    display: flex;
+.header-nav-block{
+    margin: 10px;
 }
-
-.services-block-text{
-    display: flex;
-    flex-direction: column;
+.nav-search{
+    margin: 14px;
+    margin-left: auto;
 }
+.header-nav-block:last-child>a{
+    font-weight: 700;
 
-
-.hidden{
-    display:none;
-}
-.partners-block-list{
-    display: flex;
-}
-
-
-.buy-and-contacts-block{
-    display: flex;
-}
-
-
-.footer-links-connects{
-    display: flex; 
-}
-.social-links{
-    display: flex; 
-    flex-direction: row;
-}
-.footer-block{
-    display: flex; 
 }
