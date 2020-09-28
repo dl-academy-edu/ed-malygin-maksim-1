@@ -6,11 +6,11 @@
     <title>DLK</title>
     <!-- <link rel="stylesheet" type="text/css" href="normalize.css"> -->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
-    <header class="header border">
+    <header class="header container">
         <nav class="header-nav">
             <ul class="header-nav-items">
                 <li>
@@ -26,7 +26,7 @@
                     <a href="#">About us</a>
                 </li>
                 <li class="nav-search">
-                    <a href="#"><img src="Images/search.png" alt="search icon"></a>
+                    <a href="https://www.figma.com/file/VO1kn2CjwCKfqF5mOJjX6o/DL-Academy---Personal-HTML%2FCSS-project-(Copy)"><img src="Images/search.png" alt="search icon"></a>
                 </li>
                 <li class="header-nav-block">
                     <a href="#">Contact Us</a>
@@ -34,7 +34,7 @@
             </ul>
         </nav>
     </header>
-    <main class="main border">
+    <main class="main container">
         <h1 class="visible-hidden">DLK main page</h1>
         <section class="promo-block">
             <div class="promo-block-slider">
@@ -43,7 +43,7 @@
                     <ul>
                         <li>
                             <a href="#">
-                                <div class="promo-block-slider-selector current-page"></div>
+                                <div class="promo-block-slider-selector selected"></div>
                             </a>
                         </li>
                         <li>
@@ -64,13 +64,11 @@
                     </ul>
                 </div>
                 <div class="promo-block-slider-content">
-                    <div class="slider-text">
                         <h2 class="block-title">the ooh noo collection</h2>
                         <p class="subtitle">Designed in Slovenia</p>
                         <a href="#" class="button">explore now</a>
-                    </div>
-                    <img src="Images/toy.png" alt="image of a toy" class="toy-image">
                 </div>
+                <img src="Images/toy.png" alt="image of a toy" class="toy-image">
             </div>
             <p class="promo-block-footer">Free (continental) USA shipping on all orders of $100 USD or more!</p>
         </section>
@@ -107,7 +105,7 @@
                 <div class="services-block-text">
                     <div class="services-block-menu">
                         <h3 class="block-title services-block-menu-title">Delivery</h3>
-                        <a href="#" class="services-block-menu-item services-block-menu-item-selected"> Delivery</a>
+                        <a href="#" class="services-block-menu-item selected"> Delivery</a>
                         <a href="#" class="services-block-menu-item"> Guarantee</a>
                         <a href="#" class="services-block-menu-item"> Credit</a>
                     </div>
@@ -129,28 +127,28 @@
             <h2 class="visible-hidden">our partners</h2>
             <ul class="partners-block-list">
                 <li>
-                    <img src="images/logos/mailru.png" alt="mailru logo">
+                    <a href="#"><img src="images/logos/mailru.png" alt="mailru logo"></a>
                 </li>
                 <li>
-                    <img src="images/logos/apple.png" alt="apple logo">
+                    <a href="#"><img src="images/logos/apple.png" alt="apple logo"></a>
                 </li>
                 <li>
-                    <img src="images/logos/eltex.png" alt="eltex logo">
+                    <a href="#"><img src="images/logos/eltex.png" alt="eltex logo"></a>
                 </li>
                 <li>
-                    <img src="images/logos/owox.png" alt="owox logo">
+                    <a href="#"><img src="images/logos/owox.png" alt="owox logo"></a>
                 </li>
             </ul>
         </section>
         <div class="buy-and-contacts-block">
-            <section class="buy-block">
+            <section class="buy-and-contacts-block-inner buy-block">
                 <h2 class="block-title">Design Life Kids</h2>
-                <h3>About Us</h3>
+                <h3 class="buy-and-contacts-block-subtitle">About Us</h3>
                 <p>Some days i feel like i've been working on dlk my entire life and there are other days that
                     i am completely shocked that four years have flown by. It's simply magical.</p>
                 <a href="#" class="button">buy now</a>
             </section>
-            <section class="contacts-block">
+            <section class="buy-and-contacts-block-inner contacts-block">
                 <h2 class="block-title">Contacts</h2>
                 <p>Some days i feel like i've been working on dlk my entire life and there are other days that
                     i am completely shocked that four years have flown by. It's simply magical.</p>
@@ -158,85 +156,100 @@
             </section>
         </div>
     </main>
-    <footer class="footer border">
-        <div class="footer-links-connects">
-            <nav class="footer-block">
-                <h4>Navigation</h4>
-                <ul>
-                    <li>
-                        <a href="#">About Us</a>
-                    </li>
-                    <li>
-                        <a href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">Design Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Featured On</a>
-                    </li>
-                    <li>
-                        <a href="#">2018 Holiday Catalog</a>
-                    </li>
-                    <li>
-                        <a href="#">Shop By Designer</a>
-                    </li>
-                </ul>
-            </nav>
-            <nav class="footer-block">
-                <h4>Customer Information</h4>
-                <ul>
-                    <li>
-                        <a href="#">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="#">Sale Exclusions</a>
-                    </li>
-                    <li>
-                        <a href="#">Shipping & Returns</a>
-                    </li>
-                    <li>
-                        <a href="#">Terms & Conditions</a>
-                    </li>
-                    <li>
-                        <a href="#">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#">Search</a>
-                    </li>
-                </ul>
-            </nav>
-            <section class="footer-block">
-                <h4>Connect</h4>
-                <input type="text">
-                <button type="submit">Join</button>
-                <ul class="social-links">
-                    <li>
-                        <a href="#" class="facebook"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="twitter"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="pinterest"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="instagram"></a>
-                    </li>
-                </ul>
-            </section>
-        </div>
-        <div class="footer-block">
-            <div class="rating">
-                Company Rating <img src="images/Star.png" alt="star"><img src="images/Star.png" alt="star"><img
-                    src="images/Star.png" alt="star"><img src="images/Star.png" alt="star"><img src="images/Star.png"
-                    alt="star">
+    <footer class="footer">
+        <div class="footer-inner container">
+            <div class="footer-links-connects">
+                <nav class="footer-block">
+                    <h4 class="footer-block-title">Navigation</h4>
+                    <div class="line"></div>
+                    <ul class="footer-block-list">
+                        <li class="footer-block-list-item">
+                            <a href="#">About Us</a>
+                        </li>
+                        <li class="footer-block-list-item">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="footer-block-list-item">
+                            <a href="#">Design Services</a>
+                        </li>
+                        <li class="footer-block-list-item">
+                            <a href="#">Featured On</a>
+                        </li>
+                        <li class="footer-block-list-item">
+                            <a href="#">2018 Holiday Catalog</a>
+                        </li>
+                        <li class="footer-block-list-item">
+                            <a href="#">Shop By Designer</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="footer-block">
+                    <h4 class="footer-block-title">Customer Information</h4>
+                    <div class="line"></div>
+                    <ul class="footer-block-list">
+                        <li class="footer-block-list-item">
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li class="footer-block-list-item">
+                            <a href="#">Sale Exclusions</a>
+                        </li>
+                        <li class="footer-block-list-item">
+                            <a href="#">Shipping & Returns</a>
+                        </li>
+                        <li class="footer-block-list-item">
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                        <li class="footer-block-list-item">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li class="footer-block-list-item">
+                            <a href="#">Search</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer-block">
+                    <h4 class="footer-block-title">Connect</h4>
+                    <div class="line"></div>
+                    <div class="connect-inner">
+                        <input type="email" class="email" placeholder="Email">
+                        <button type="submit" class="button button-connect">Join</button>
+                    </div>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" class="facebook"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="twitter"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="pinterest"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="instagram"></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="copyright">
-                Copyright © 2018 Dlk • Design Life Kids
-            </div>
-            <div class="autors">
-                Web Design — <a href="https://directlinedev.com/">Direct Line Development</a>
+            <div class="footer-block">
+                <div class="line"></div>
+                <div class="footer-block-inner">
+                    <div class="rating-wrapper rating">
+                        <span class="rating-text"> Company Rating </span>
+                        <div class="stars">
+                            <a href="#" class="star rating"></a>
+                            <a href="#" class="star rating"></a>
+                            <a href="#" class="star rating"></a>
+                            <a href="#" class="star rating"></a>
+                            <a href="#" class="star rating"></a>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        Copyright © 2018 Dlk • Design Life Kids
+                    </div>
+                    <div class="autors">
+                        Web Design —&nbsp<a href="https://directlinedev.com/">Direct Line Development</a>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
