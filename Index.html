@@ -1,201 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>DLK</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <header class="header-main">
-            <nav class="header-nav">
-            <a href="#"><img src="images/Union.png" class="logo" alt="logo"></a>
-                <ul class="header-nav-left">
-                    <li class="nav-block">
-                        <a href="#">Blog</a>
-                    </li>
-                    <li class="nav-block">
-                        <a href="#">Catalog</a>
-                    </li>
-                    <li class="nav-block">
-                        <a href="#">About us</a>
-                    </li>
-                </ul>
-                <ul class="header-nav-right">
-                    <li class="nav-block">
-                        <button type="button"><img src="Images/search.png" alt="search icon"></button>
-                    </li>
-                    <li class="nav-block">
-                        <a href="#">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main class="main">
-            <section class="promo-block">
-                <div class="promo-block-main">
-                    <p class="promo-block-page">01</p>
-                    <div>
-                        <h1 class="block-title">the ooh noo collection</h1>
-                        <p class="subtitle">Designed in Slovenia</p>
+
+<head>
+    <meta charset="UTF-8">
+    <title>DLK</title>
+    <!-- <link rel="stylesheet" type="text/css" href="normalize.css"> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header class="header container">
+        <nav class="header-nav">
+            <ul class="header-nav-items">
+                <li>
+                    <a href="#"><img src="images/Union.png" class="logo link" alt="logo"></a>
+                </li>
+                <li class="header-nav-block">
+                    <a href="#" class="header-nav-block-link">Blog</a>
+                </li>
+                <li class="header-nav-block">
+                    <a href="#" class="header-nav-block-link">Catalog</a>
+                </li>
+                <li class="header-nav-block">
+                    <a href="#" class="header-nav-block-link">About us</a>
+                </li>
+                <li class="nav-search">
+                    <a class="header-nav-block-link" href="https://www.figma.com/file/VO1kn2CjwCKfqF5mOJjX6o/DL-Academy---Personal-HTML%2FCSS-project-(Copy)"><img src="images/search.png" alt="search icon"></a>
+                </li>
+                <li class="header-nav-block">
+                    <a href="#" class="header-nav-block-link">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main container">
+        <h1 class="visible-hidden">DLK main page</h1>
+        <section class="promo-block block">
+            <div class="promo-block-slider">
+                <div class="promo-block-slider-control">
+                    <p class="promo-block-slider-page">01</p>
+                            <a href="#" class="promo-block-slider-selector selected">
+                            </a>
+                            <a href="#" class="promo-block-slider-selector">
+                            </a>
+                            <a href="#" class="promo-block-slider-selector">
+                            </a>
+                            <a href="#" class="promo-block-slider-selector">
+                            </a>
+                </div>
+                <div class="promo-block-slider-content">
+                        <h2 class="block-title">the ooh noo collection</h2>
+                        <p class="promo-block-subtitle">Designed in Slovenia</p>
                         <a href="#" class="button">explore now</a>
-                    </div>
-                    <img src="Images/toy.png" alt="image of a toy" class="toy-image">
                 </div>
-                <p class="promo-block-footer">Free (continental) USA shipping on all orders of $100 USD or more!</p>
-            </section>
-            <section class="product-block">
-                <h2 class="block-title">Category Products</h2>
-                <ul class="product-list">
-                    <li>
-                        <a href="#">apparel kids</a>
-                    </li>
-                    <li>
-                        <a href="#">holiday shop</a>
-                    </li>
-                    <li>
-                        <a href="#">toys</a>
-                    </li>
-                    <li>
-                        <a href="#">accessories</a>
-                    </li>
-                </ul>
-                <div class="product-nav">
-                    <button type="button-scroll">&lt;</button>
-                    <button type="button-scroll">></button>
-                    <p>Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
-                </div>
-            </section>
-            <section class="services-block">
-                <h2 class="hidden">Our services</h2>
+                <img src="images/toy.png" alt="image of a toy" class="toy-image">
+            </div>
+            <p class="promo-block-footer">Free (continental) USA shipping on all orders of $100 USD or more!</p>
+        </section>
+        <section class="product-block block">
+            <h2 class="block-title">Category Products</h2>
+            <ul class="product-block-list">
+                <li>
+                    <a href="#" class="product-block-item apparel-kids">apparel kids</a>
+                </li>
+                <li>
+                    <a href="#" class="product-block-item holiday-shop">holiday shop</a>
+                </li>
+                <li>
+                    <a href="#" class="product-block-item toys">toys</a>
+                </li>
+                <li>
+                    <a href="#" class="product-block-item accessories">accessories</a>
+                </li>
+            </ul>
+            <div class="product-block-nav">
+                <button class="button-scroll scroll-left"></button>
+                <button class="button-scroll scroll-right"></button>
+                <p class="product-block-nav-text">Modern finds for the modern home. Curated goods by unique designers
+                    around the world from fashion to
+                    furniture for kids and adults.</p>
+            </div>
+        </section>
+        <section class="services-block block">
+            <h2 class="visible-hidden">Our services</h2>
+            <div class="services-block-inner">
                 <div class="services-block-image">
-                    <img src="Images/woman.jpg" alt="woman in dress smiling">
+                    <img src="images/woman.jpg" alt="woman in dress smiling" class="woman-in-dress">
                 </div>
-                <div>
-                    <div class="services-block-menu"></div>
-                        <h3 class="block-title">Delivery</h3>
-                        <a href="#"> Delivery</a>
-                        <a href="#"> Guarantee</a>
-                        <a href="#"> Credit</a>
+                <div class="services-block-text">
+                    <div class="services-block-menu">
+                        <h3 class="block-title services-block-menu-title">Delivery</h3>
+                        <a href="#" class="services-block-menu-item selected"> Delivery</a>
+                        <a href="#" class="services-block-menu-item"> Guarantee</a>
+                        <a href="#" class="services-block-menu-item"> Credit</a>
                     </div>
-                    <div class="services-block-text">
-                        <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-                        <p>What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
+                    <div class="services-block-content">
+                        <div class="services-block-content-inner">
+                            <p>Some days i feel like i've been working on dlk my entire life and there are other days that
+                                i am completely shocked that four years have flown by. It's simply magical.</p>
+                            <p>What started as an outlet to deal with the traumatic loss of my husband, dlk has now become
+                                a truly
+                                happy place for me and i have you and all of the beautiful designers that we work with to thank!
+                            </p>
+                        </div>
                         <a href="#" class="button">Learn more</a>
                     </div>
                 </div>
-            </section>
-            <section class="partners-block">
-                <h2 class="hidden">our partners</h2>
-                <ul class="partners-block-list">
-                    <li>
-                        <img src="images/logos/mailru.png" alt="mailru logo">
-                    </li>
-                    <li>
-                        <img src="images/logos/apple.png" alt="apple logo">
-                    </li>
-                    <li>
-                        <img src="images/logos/eltex.png" alt="eltex logo">
-                    </li>
-                    <li>
-                        <img src="images/logos/owox.png" alt="owox logo">
-                    </li>
-                </ul>
-            </section>
-            <div class="buy-and-contacts-block">
-                <section class="buy-block">
-                    <h2 class="block-title">Design Life Kids</h2>
-                    <h3>About Us</h3>
-                    <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-                    <a href="#" class="button">buy now</a>
-                </section>
-                <section class="contacts-block">
-                    <h2 class="block-title">Contacts</h2>
-                    <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-                    <img src="Images/map.png" alt="map">
-                </section>
             </div>
-        </main>
-
-
-        <footer>
+        </section>
+        <section class="partners-block block">
+            <h2 class="visible-hidden">our partners</h2>
+            <ul class="partners-block-list">
+                <li>
+                    <a href="#" class="partners-block-list-link"><img src="images/logos/mailru.png" alt="mailru logo"></a>
+                </li>
+                <li>
+                    <a href="#" class="partners-block-list-link"><img src="images/logos/apple.png" alt="apple logo"></a>
+                </li>
+                <li>
+                    <a href="#" class="partners-block-list-link"><img src="images/logos/eltex.png" alt="eltex logo"></a>
+                </li>
+                <li>
+                    <a href="#" class="partners-block-list-link"><img src="images/logos/owox.png" alt="owox logo"></a>
+                </li>
+            </ul>
+        </section>
+        <div class="buy-and-contacts-block block">
+            <section class="buy-and-contacts-block-inner buy-block">
+                <h2 class="block-title">Design Life Kids</h2>
+                <h3 class="buy-and-contacts-block-subtitle">About Us</h3>
+                <p>Some days i feel like i've been working on dlk my entire life and there are other days that
+                    i am completely shocked that four years have flown by. It's simply magical.</p>
+                <a href="#" class="button">buy now</a>
+            </section>
+            <section class="buy-and-contacts-block-inner contacts-block">
+                <h2 class="block-title">Contacts</h2>
+                <p>Some days i feel like i've been working on dlk my entire life and there are other days that
+                    i am completely shocked that four years have flown by. It's simply magical.</p>
+                <img src="images/map.png" alt="map">
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
             <div class="footer-links-connects">
                 <nav class="footer-block">
-                    <h4>Navigation</h4>
+                    <h4 class="footer-block-title ">Navigation</h4>
+                    <div class="line"></div>
                     <ul>
                         <li>
-                            <a href="#">About Us</a>
+                            <a href="#" class="footer-block-link">About Us</a>
                         </li>
                         <li>
-                            <a href="#">Blog</a>
+                            <a href="#" class="footer-block-link">Blog</a>
                         </li>
                         <li>
-                            <a href="#">Design Services</a>
+                            <a href="#" class="footer-block-link">Design Services</a>
                         </li>
                         <li>
-                            <a href="#">Featured On</a>
+                            <a href="#" class="footer-block-link">Featured On</a>
                         </li>
                         <li>
-                            <a href="#">2018 Holiday Catalog</a>
+                            <a href="#" class="footer-block-link">2018 Holiday Catalog</a>
                         </li>
                         <li>
-                            <a href="#">Shop By Designer</a>
+                            <a href="#" class="footer-block-link">Shop By Designer</a>
                         </li>
                     </ul>
                 </nav>
                 <nav class="footer-block">
-                    <h4>Customer Information</h4>
+                    <h4 class="footer-block-title">Customer Information</h4>
+                    <div class="line"></div>
                     <ul>
                         <li>
-                            <a href="#">Contact Us</a>
+                            <a href="#" class="footer-block-link">Contact Us</a>
                         </li>
                         <li>
-                            <a href="#">Sale Exclusions</a>
+                            <a href="#" class="footer-block-link">Sale Exclusions</a>
                         </li>
                         <li>
-                            <a href="#">Shipping & Returns</a>
+                            <a href="#" class="footer-block-link">Shipping & Returns</a>
                         </li>
                         <li>
-                            <a href="#">Terms & Conditions</a>
+                            <a href="#" class="footer-block-link">Terms & Conditions</a>
                         </li>
                         <li>
-                            <a href="#">Privacy Policy</a>
+                            <a href="#" class="footer-block-link">Privacy Policy</a>
                         </li>
                         <li>
-                            <a href="#">Search</a>
+                            <a href="#" class="footer-block-link">Search</a>
                         </li>
                     </ul>
                 </nav>
-                <section class="footer-block">
-                    <h4>Connect</h4>
-                    <input type="text">
-                    <button type="submit">Join</button>
+                <div class="footer-block">
+                    <h4 class="footer-block-title">Connect</h4>
+                    <div class="line"></div>
+                    <form action="send-email" class="connect-inner">
+                        <input type="email" class="email" placeholder="Email">
+                        <button type="submit" class="button button-connect">Join</button>
+                    </form>
                     <ul class="social-links">
                         <li>
-                            <a href="#" class="facebook"></a>
+                            <a href="#" class="social-links-facebook social-link"></a>
                         </li>
                         <li>
-                            <a href="#" class="twitter"></a>
+                            <a href="#" class="social-links-twitter social-link"></a>
                         </li>
                         <li>
-                            <a href="#" class="pinterest"></a>
+                            <a href="#" class="social-links-pinterest social-link"></a>
                         </li>
                         <li>
-                            <a href="#" class="instagram"></a>
+                            <a href="#" class="social-links-instagram social-link"></a>
                         </li>
                     </ul>
-                </section>
+                </div>
             </div>
             <div class="footer-block">
-                <div class="rating">
-                    Company Rating <img src="images/Star.png" alt="star"><img src="images/Star.png" alt="star"><img src="images/Star.png" alt="star"><img src="images/Star.png" alt="star"><img src="images/Star.png" alt="star">
-                </div>
-                <div class="copyright">
-                    Copyright © 2018 Dlk • Design Life Kids
-                </div>
-                <div class="autors">
-                    Web Design — <a href="https://directlinedev.com/">Direct Line Development</a>
+                <div class="line"></div>
+                <div class="footer-block-inner">
+                    <div class="footer-block-rating-wrapper footer-block-footer">
+                        <span class="footer-block-rating"> Company Rating </span>
+                        <div class="stars">
+                            <a href="#" class="star"></a>
+                            <a href="#" class="star"></a>
+                            <a href="#" class="star"></a>
+                            <a href="#" class="star"></a>
+                            <a href="#" class="star"></a>
+                        </div>
+                    </div>
+                    <div class="footer-block-copyright footer-block-footer">
+                        Copyright © 2018 Dlk • Design Life Kids
+                    </div>
+                    <div class="autors footer-block-footer">
+                        Web Design&nbsp;<a class="autors" href="https://directlinedev.com/">Direct Line Development</a>
+                    </div>
                 </div>
             </div>
-        </footer>
-    </body>
+        </div>
+    </footer>
+</body>
+
 </html>
