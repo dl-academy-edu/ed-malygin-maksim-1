@@ -8,8 +8,35 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400;1,700&family=Montserrat:wght@300;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
 </head>
-
 <body>
+    <div class="popup">
+        <form action="Contact-us" class="popup-form">
+            <button type="button" class="popup-form-button-close" id="popup-close-button">
+                <span class="visible-hidden">Popup close button</span>
+            </button>
+            <div class="input">
+                <label class="input-label" for="name">Name</label>
+                <input class="input-item" type="text" id="name">
+            </div>
+            <div class="inputs-two-row">
+                <div class="input">
+                    <label class="input-label" for="phone">Phone</label>
+                    <input class="input-item" type="text" id="phone">
+                </div>
+                <div class="input">
+                    <label class="input-label" for="email">Email</label>
+                    <input class="input-item" type="email" id="email">
+                </div>
+            </div>
+            <div class="input">
+                <label class="input-label" for="message">Message</label>
+                <textarea class="input-item textarea" id="message"></textarea>
+            </div>
+                <input class="check-radio-item visible-hidden" type="checkbox" id="consent">
+                <label for="consent" class="check-radio-label">By clicking on the button, you consent to the processing of your personal data</label>
+            <button type="submit" class="button popup-form-button-submit disabled-button">SUBMIT</button>
+        </form>
+    </div>
     <header class="header container">
         <nav class="header-nav">
             <ul class="header-nav-items">
@@ -20,7 +47,7 @@
                     <a href="#" class="header-nav-block-link">Blog</a>
                 </li>
                 <li class="header-nav-block">
-                    <a href="#" class="header-nav-block-link">Catalog</a>
+                    <a href="/catalog.html" class="header-nav-block-link">Catalog</a>
                 </li>
                 <li class="header-nav-block">
                     <a href="#" class="header-nav-block-link">About us</a>
@@ -52,7 +79,7 @@
                 <div class="promo-block-slider-content">
                         <h2 class="block-title">the ooh noo collection</h2>
                         <p class="promo-block-subtitle">Designed in Slovenia</p>
-                        <a href="#" class="button">explore now</a>
+                        <a href="#" class="button" id="popup-open-button">explore now</a>
                 </div>
                 <img src="images/toy.png" alt="image of a toy" class="toy-image">
             </div>
@@ -216,29 +243,31 @@
                     </ul>
                 </div>
             </div>
-            <div class="footer-block">
-                <div class="line"></div>
-                <div class="footer-block-inner">
-                    <div class="footer-block-rating-wrapper footer-block-footer">
-                        <span class="footer-block-rating"> Company Rating </span>
-                        <div class="stars">
-                            <a href="#" class="star"></a>
-                            <a href="#" class="star"></a>
-                            <a href="#" class="star"></a>
-                            <a href="#" class="star"></a>
-                            <a href="#" class="star"></a>
+            <div class="footer-block-wrapper">
+                <div class="footer-block">
+                    <div class="line"></div>
+                    <div class="footer-block-inner">
+                        <div class="footer-block-rating-wrapper footer-block-footer">
+                            <span class="footer-block-rating"> Company Rating </span>
+                            <div class="stars">
+                                <a href="#" class="star"></a>
+                                <a href="#" class="star"></a>
+                                <a href="#" class="star"></a>
+                                <a href="#" class="star"></a>
+                                <a href="#" class="star"></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="footer-block-copyright footer-block-footer">
-                        Copyright © 2018 Dlk • Design Life Kids
-                    </div>
-                    <div class="autors footer-block-footer">
-                        Web Design&nbsp;<a class="autors" href="https://directlinedev.com/">Direct Line Development</a>
+                        <div class="footer-block-copyright footer-block-footer">
+                            Copyright © 2018 Dlk • Design Life Kids
+                        </div>
+                        <div class="autors footer-block-footer">
+                            Web Design&nbsp;<a class="autors" href="https://directlinedev.com/">Direct Line Development</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="js/index.js"></script>
 </body>
-
 </html>

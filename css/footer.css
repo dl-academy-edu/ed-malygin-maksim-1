@@ -1,6 +1,5 @@
 .footer{
     background-color: #434343;
-    margin-top: 147px;
     padding-top: 100px;
     padding-bottom: 100px;
     /* margin-bottom: 500px; */
@@ -9,6 +8,8 @@
 }
 
 .footer-links-connects{
+    margin-left: -10px;
+    margin-right: -10px;
     display: flex;
     justify-content: space-between;
 }
@@ -17,6 +18,10 @@
     margin: 10px;
     margin-top: 0px;
     width: 100%;
+}
+.footer-block-rating-wrapper{
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .footer-block-title{
@@ -47,7 +52,7 @@
 .line{
     height: 1px;
     background-color: #666666;
-    /* width: 100%; */
+    width: 100%;
     margin-top: 23px;
     margin-bottom: 28px;
 }

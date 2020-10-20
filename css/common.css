@@ -14,6 +14,35 @@ ul{
     list-style: none;
 }
 
+.page-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #1E0606;
+}
+
+.bread-crumbs-link{
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E0606;
+    text-decoration: none;
+}
+
+.bread-crumbs-here{
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E0606;
+    opacity: 0.5;
+}
+
 .container {
     max-width: 1400px;
     padding-left: 110px;
@@ -37,6 +66,7 @@ ul{
 }
 
 .button{
+    display: inline-block;
     padding: 9px 22px;
     border: none;
     background-color: #000;
@@ -50,14 +80,22 @@ ul{
     color: #FFFFFF;
 }
 
-.button:hover{
+.button:hover:not(.disabled-button) {
     background-color: #C29974;
-    opacity: 1;
+    /* opacity: 1; */
 }
 
-.button:active{
+.button:active:not(.disabled-button){
     background-color: #CFAF91;
-    opacity: 1;
+    /* opacity: 1; */
+}
+.disabled-button{
+    background: #C1C1C1;
+    color: #E1E1E1;
+    pointer-events: none;
+    /* это должно было убрать возможность выбрать кнопку табуляцией */
+    -moz-user-focus: ignore;
+    nav-index: -1;
 }
 
 .visible-hidden{
