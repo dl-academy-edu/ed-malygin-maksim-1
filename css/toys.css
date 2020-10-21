@@ -17,7 +17,7 @@
 
 .filter-block{
     display: flex;
-
+    align-items: start;
 }
 
 .filter-block-column{
@@ -25,9 +25,36 @@
     flex-direction: column;
 }
 
+.filter-block-column-name{
+    margin-bottom: 15px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.filter-block-cost{
+    
+    margin-right: 94px;
+}
+
 .range{
     display: flex;
     justify-content: space-between;
+}
+
+.filter-block-color{
+    margin-right: 130px;
+}
+
+.filter-block-delivery{
+    margin-right: 69px;
+}
+
+.filter-block-amount{
+    margin-right: 60px;
 }
 
 .amount-wrapper{
@@ -44,6 +71,10 @@
 
 .amount-20-50::after{
     content: "20-50";
+}
+
+.filter-block-apply{
+    margin-top: 37px;
 }
 
 /* toys block  */

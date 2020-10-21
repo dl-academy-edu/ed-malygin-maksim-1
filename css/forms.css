@@ -149,3 +149,8 @@
 .radio-item-box:checked + .radio-label-box::after{
     background-color: #F3D0DB;
 }
+
+.radio-item:focus + .radio-label-box::after{
+    outline: 1px auto #e59700;
+    outline-offset: 10px;
+}

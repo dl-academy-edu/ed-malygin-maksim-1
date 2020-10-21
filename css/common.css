@@ -91,6 +91,7 @@ ul{
     text-decoration: none;
     text-transform: uppercase;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .button:hover:not(.disabled-button) {
