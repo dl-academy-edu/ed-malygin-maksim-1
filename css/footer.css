@@ -2,7 +2,14 @@
     background-color: #434343;
     padding-top: 100px;
     padding-bottom: 100px;
-    /* margin-bottom: 500px; */
+}
+
+.footer a:hover{
+    opacity: 0.5;
+}
+
+.footer a:active{
+    opacity: 0.2;
 }
 
 .footer-links-connects{
@@ -24,26 +31,23 @@
 
 .footer-block-title{
     margin: 0;
-    font-family: "Open Sans";
+    font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
-    /* identical to box height */
     color: #AAAAAA;
 }
 
-/* .footer-block-list a,.rating-wrapper,.copyright,.autors{ */
 .footer-block-link{
     display: flex;
     text-decoration: none;
     margin-bottom: 15px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
-    /* identical to box height */
     color: #FFFFFF;
 }
 
@@ -64,12 +68,11 @@
     border: none;
     width: 100%;
     padding-left: 15px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
-    /* identical to box height */
     display: flex;
     align-items: center;
     color: #EBEBEB;
@@ -122,66 +125,83 @@
     width: 100%;
 }
 
-.footer-block-rating-wrapper{
-    display: flex;
-}
-
-.footer-block-rating{
-    margin-right: 25px;
-    margin-bottom: 0;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    /* identical to box height */
-    color: #FFFFFF;
-}
-
-.footer-block-rating:hover{
-    color:#C29974;
-}
-
-.stars{
-    display: flex;
-    align-items: center;
-}
-
-.star{
-    width: 17px;
-    height: 16px;
-    margin-right: 3px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(/Images/Star.png);
-}
-
-.star:hover{
-    background-image: url(/Images/Star-hover.png);
-}
-
-.star:active{
-    background-image: url(/Images/Star-active.png);
-}
-
 .footer-block-copyright{
     margin-bottom: 0;
-    font-family: "Open Sans";
+    font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
-    /* identical to box height */
     color: #FFFFFF;
 }
 
 .autors{
     text-decoration: none;
-    font-family: "Open Sans";
+    font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
     color: #A2A2A2;
     display: flex;
+}
+
+
+/* звёздочки рейтинга */
+
+.info-list-company{
+    display: flex;
+}
+
+.info-list-company:hover *{
+    color: #C29974;
+}
+
+.company_rating{
+    margin-right: 25px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.rating-area {
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    align-items: center;
+    margin: 0;
+}
+
+.rating-area:not(:checked) > input {
+    display: none;
+}
+
+.rating-area:not(:checked) > label {
+    cursor: pointer;
+}
+
+.rating-area label{
+    width: 17px;
+    height: 16px;
+    margin-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/images/star.png);
+
+}
+
+.rating-area:not(:checked) > label:before {
+    content: "";
+}
+
+.rating-area > input:checked ~ label {
+    background-image: url(/images/star-active.png);
+}
+
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+    background-image: url(/images/star-hover.png);
 }

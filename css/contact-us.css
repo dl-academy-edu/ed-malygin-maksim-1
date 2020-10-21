@@ -14,7 +14,7 @@
 
 .message{
     margin-left: 120px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -24,7 +24,7 @@
 
 .exclamation{
     margin-top: 20px;
-    font-family: "Montserrat";
+    font-family: "Montserrat", "Century Gothic", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 26px;

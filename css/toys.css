@@ -27,7 +27,7 @@
 
 .filter-block-column-name{
     margin-bottom: 15px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -85,7 +85,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-    font-family: "Open Sans";
+    font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -139,7 +139,7 @@
 .nav-page{
     margin: 33px;
     text-decoration: none;
-    font-family: "Montserrat";
+    font-family: "Montserrat", "Century Gothic", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;

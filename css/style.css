@@ -24,7 +24,7 @@
 
 .promo-block-slider-page{
     margin: 0;
-    font-family: "Montserrat";
+    font-family: "Montserrat", "Century Gothic", sans-serif;
     font-weight: 300;
     font-size: 60px;
     line-height: 73px;
@@ -55,7 +55,7 @@
 .promo-block-subtitle{
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: Crimson Text;
+    font-family: "Crimson Text", Georgia, serif;
     font-style: italic;
     font-weight: normal;
     font-size: 20px;
@@ -77,14 +77,12 @@
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 11px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 16px;
-    /* identical to box height */
     text-align: center;
-    text-transform: uppercase;
     color: #FFFFFF;
 }
 
@@ -108,13 +106,12 @@
     width: 280px;
     height: 270px;
     margin: 10px;
-    font-family: Montserrat;
+    font-family: "Montserrat", "Century Gothic", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 32px;
     /* identical to box height */
-    text-transform: uppercase;
     color: #FFFFFF;
 }
 
@@ -179,7 +176,7 @@
     margin: 0;
     margin-left: 14px;
     max-width: 580px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -215,7 +212,7 @@
     padding-bottom: 11px;
     text-decoration: none;
     color: #000;
-    font-family: Crimson Text;
+    font-family: "Crimson Text", Georgia, serif;
     font-style: italic;
     font-weight: normal;
     font-size: 26px;
@@ -281,7 +278,7 @@
 }
 
 .buy-and-contacts-block-subtitle{
-    font-family: Crimson Text;
+    font-family: "Crimson Text", Georgia, serif;
     font-style: italic;
     font-weight: normal;
     font-size: 26px;
@@ -296,7 +293,7 @@
 
 .buy-text{
     margin-top: 10px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -308,7 +305,7 @@
 .contacts-text{
     margin-top: 41px;
     margin-bottom: 102px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;

@@ -5,7 +5,7 @@
 body{
     margin: 0;
     background-color: #ffffff;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
 }
 
 ul{
@@ -15,7 +15,7 @@ ul{
 }
 
 .page-title{
-    font-family: Montserrat;
+    font-family: "Montserrat", "Century Gothic", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -28,7 +28,7 @@ ul{
 }
 
 .bread-crumbs-link{
-    font-family: Crimson Text;
+    font-family: "Crimson Text", Georgia, serif;
     font-style: italic;
     font-weight: normal;
     font-size: 20px;
@@ -38,7 +38,7 @@ ul{
 }
 
 .bread-crumbs-here{
-    font-family: Crimson Text;
+    font-family: "Crimson Text", Georgia, serif;
     font-style: italic;
     font-weight: normal;
     font-size: 20px;
@@ -70,7 +70,7 @@ ul{
 
 .block-title{
     text-transform: uppercase;
-    font-family: Montserrat;
+    font-family: "Montserrat", "Century Gothic", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -83,13 +83,12 @@ ul{
     padding: 9px 22px;
     border: none;
     background-color: #000;
-    font-family: "Open Sans";
+    font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 22px;
     text-decoration: none;
-    text-transform: uppercase;
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -108,8 +107,8 @@ ul{
     color: #E1E1E1;
     pointer-events: none;
     /* это должно было убрать возможность выбрать кнопку табуляцией */
-    -moz-user-focus: ignore;
-    nav-index: -1;
+    /* -moz-user-focus: ignore; */
+    /* nav-index: -1; */
 }
 
 .visible-hidden{
@@ -121,6 +120,6 @@ ul{
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
-    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
     overflow: hidden;
 }
