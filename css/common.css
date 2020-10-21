@@ -23,6 +23,10 @@ ul{
     color: #1E0606;
 }
 
+.bread-crumbs{
+    margin-bottom: 50px;
+}
+
 .bread-crumbs-link{
     font-family: Crimson Text;
     font-style: italic;
@@ -41,6 +45,15 @@ ul{
     line-height: 25px;
     color: #1E0606;
     opacity: 0.5;
+}
+
+.bread-crumbs-arrow{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 12px;
+    width: 8px;
+    background-image: url(/images/bread-crumbs-arrow.png);
 }
 
 .container {

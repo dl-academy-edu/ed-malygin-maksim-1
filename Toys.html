@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>DLK</title>
+        <link rel="stylesheet" type="text/css" href="css/toys.css">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400;1,700&family=Montserrat:wght@300;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header class="header container">
+            <nav class="header-nav">
+                <ul class="header-nav-items">
+                    <li>
+                        <a href="index.html"><img src="images/union.png" class="logo link" alt="logo"></a>
+                    </li>
+                    <li class="header-nav-block">
+                        <a href="#" class="header-nav-block-link">Blog</a>
+                    </li>
+                    <li class="header-nav-block">
+                        <a href="#" class="header-nav-block-link">Catalog</a>
+                    </li>
+                    <li class="header-nav-block">
+                        <a href="#" class="header-nav-block-link">About us</a>
+                    </li>
+                    <li class="nav-search">
+                        <a class="header-nav-block-link" href="https://www.figma.com/file/VO1kn2CjwCKfqF5mOJjX6o/DL-Academy---Personal-HTML%2FCSS-project-(Copy)"><img src="images/search.png" alt="search icon"></a>
+                    </li>
+                    <li class="header-nav-block">
+                        <a href="#" class="header-nav-block-link">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1 class="page-title container">TOY FOR KIDS</h1>
+            <div class="bread-crumbs container">
+                <a href="index.html" class="bread-crumbs-link">Home </a>
+                <div class="bread-crumbs-arrow"></div>
+                <a href="catalog.html" class="bread-crumbs-link">Catalog </a>
+                <div class="bread-crumbs-arrow"></div>
+                <a class="bread-crumbs-here">Toys</a>
+            </div>
+            <div class="filter-block-wrapper">
+                <form action="filter" class="filter-block container">
+                    <div class="filter-block-column cost">
+                        <span>Cost</span>
+                        <input type="range">
+                        <div class="range">
+                            <span>0</span>
+                            <span>500</span>
+                        </div>
+                    </div>
+                    <div class="filter-block-column color">
+                        <span>Color</span>
+                        <input class="check-radio-item visible-hidden" type="checkbox" id="Black">
+                        <label class="check-radio-label" for="Black"> Black</label>
+                        <input class="check-radio-item visible-hidden" type="checkbox" id="Blue">
+                        <label class="check-radio-label" for="Blue"> Blue</label>
+                        <input class="check-radio-item visible-hidden" type="checkbox" id="Green">
+                        <label class="check-radio-label" for="Green"> Green</label>
+                        <input class="check-radio-item visible-hidden" type="checkbox" id="White">
+                        <label class="check-radio-label" for="White"> White</label>
+                    </div>
+                    <div class="filter-block-column delivery">
+                        <span>Delivery</span>
+                        <input class="radio-item visible-hidden" type="radio" name="delivery" id="free">
+                        <label class="radio-label" for="free">Free Sipping</label>
+                        <input class="radio-item visible-hidden" type="radio" name="delivery" id="fast" checked>
+                        <label class="radio-label" for="fast">Fast Sipping</label>
+                    </div>
+                    <div class="filter-block-column amount">
+                        <span>Amount</span>
+                        <div class="amount-wrapper">
+                            <input class="radio-item-box visible-hidden" type="radio" name="amount" id="amount-0-5" checked>
+                            <label class="radio-label-box amount-0-5" for="amount-0-5"></label>
+                            <input class="radio-item-box visible-hidden" type="radio" name="amount" id="amount-10-20">
+                            <label class="radio-label-box amount-10-20" for="amount-10-20"></label>
+                            <input class="radio-item-box visible-hidden" type="radio" name="amount" id="amount-20-50">
+                            <label class="radio-label-box amount-20-50" for="amount-20-50"></label>
+                        </div>
+                        </div>
+                    <div class="filter-block-column apply">
+                        <button type="button" class="button">APPLY</button>
+                    </div>
+                </form>
+            </div>
+            <section class="toys-block container">
+                <div class="toys-block-items">
+                    <div class="toys-block-item">
+                        <img src="/Images/toys/shark.png" alt="sharky bean chair cover">
+                        <span class="toys-block-item-name">SHARKY BEAN BAG CHAIR COVER</span>
+                        <span class="toys-block-item-price">$60.00 USD</span>
+                    </div>
+                    <div class="toys-block-item">
+                        <img src="/Images/toys/frames.png" alt="BRASS DECO FRAMES">
+                        <span class="toys-block-item-name">BRASS DECO FRAMES</span>
+                        <span class="toys-block-item-price">$60.00 USD</span>
+                    </div>
+                    <div class="toys-block-item">
+                        <img src="/Images/toys/apron.png" alt="CIBO FULL APRON">
+                        <span class="toys-block-item-name">CIBO FULL APRON</span>
+                        <span class="toys-block-item-price">$60.00 USD</span>
+                    </div>
+                    <div class="toys-block-item">
+                        <img src="/Images/toys/machine.png" alt="GATCHA GATCHA GUMBALL MACHINE">
+                        <span class="toys-block-item-name">GATCHA GATCHA GUMBALL MACHINE</span>
+                        <span class="toys-block-item-price">$56.00 USD</span>
+                    </div>
+                    <div class="toys-block-item">
+                        <img src="/Images/toys/candle.png" alt="CHRISTMAS ADVENT SCENTED CANDLE">
+                        <span class="toys-block-item-name">CHRISTMAS ADVENT SCENTED CANDLE</span>
+                        <span class="toys-block-item-price">$29.00 USD</span>
+                    </div>
+                    <div class="toys-block-item">
+                        <img src="/Images/toys/light.png" alt="TANGLE SPINNING TEA LIGHT">
+                        <span class="toys-block-item-name">TANGLE SPINNING TEA LIGHT</span>
+                        <span class="toys-block-item-price">$56.00 USD</span>
+                    </div>
+                </div>
+                <nav class="toys-block-nav">
+                    <a href="#" class="previous-page"></a>
+                    <a class="nav-page current-page" href="#">1</a>
+                    <a class="nav-page" href="#">2</a>
+                    <a class="nav-page" href="#">3</a>
+                    <a class="nav-page" href="#">4</a>
+                    <a href="#" class="next-page"></a>
+                </nav>
+            </section>
+
+        </main>
+        <footer class="footer">
+        <div class="container">
+            <div class="footer-links-connects">
+                <nav class="footer-block">
+                    <h4 class="footer-block-title ">Navigation</h4>
+                    <div class="line"></div>
+                    <ul>
+                        <li>
+                            <a href="#" class="footer-block-link">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-block-link">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-block-link">Design Services</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-block-link">Featured On</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-block-link">2018 Holiday Catalog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-block-link">Shop By Designer</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="footer-block">
+                    <h4 class="footer-block-title">Customer Information</h4>
+                    <div class="line"></div>
+                    <ul>
+                        <li>
+                            <a href="#" class="footer-block-link">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-block-link">Sale Exclusions</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-block-link">Shipping & Returns</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-block-link">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-block-link">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-block-link">Search</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer-block">
+                    <h4 class="footer-block-title">Connect</h4>
+                    <div class="line"></div>
+                    <form action="send-email" class="connect-inner">
+                        <input type="email" class="email" placeholder="Email">
+                        <button type="submit" class="button button-connect">Join</button>
+                    </form>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" class="social-links-facebook social-link"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-links-twitter social-link"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-links-pinterest social-link"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-links-instagram social-link"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-block-wrapper">
+                <div class="footer-block">
+                    <div class="line"></div>
+                    <div class="footer-block-inner">
+                        <div class="footer-block-rating-wrapper footer-block-footer">
+                            <span class="footer-block-rating"> Company Rating </span>
+                            <div class="stars">
+                                <a href="#" class="star"></a>
+                                <a href="#" class="star"></a>
+                                <a href="#" class="star"></a>
+                                <a href="#" class="star"></a>
+                                <a href="#" class="star"></a>
+                            </div>
+                        </div>
+                        <div class="footer-block-copyright footer-block-footer">
+                            Copyright © 2018 Dlk • Design Life Kids
+                        </div>
+                        <div class="autors footer-block-footer">
+                            Web Design&nbsp;<a class="autors" href="https://directlinedev.com/">Direct Line Development</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </footer>
+    </body>
+</html>
