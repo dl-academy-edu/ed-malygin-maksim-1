@@ -1,0 +1,35 @@
+@import "common.css";
+@import "header.css";
+@import "footer.css";
+@import "popup.css";
+
+
+/*HEADER - separate file*/
+
+/* main  */
+.main-inner{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.message{
+    margin-left: 120px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.exclamation{
+    margin-top: 20px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    color: #C29974;
+}
+
+/* FOOTER - separate file  */
