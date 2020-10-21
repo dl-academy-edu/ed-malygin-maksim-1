@@ -40,6 +40,10 @@
     text-decoration: underline;
 }
 
+.product-block-item:active{
+    cursor: none;
+}
+
 .apparel-kids{
     background-color: #DBE4DB;
     background-image: url(/images/category/apparel\ kids.png);

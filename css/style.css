@@ -119,9 +119,13 @@
     text-decoration: underline;
 }
 
+.product-block-item:active{
+    cursor: none;
+}
+
 .apparel-kids{
     background-color: #DBE4DB;
-    background-image: url(/images/category/apparel.png);
+    background-image: url(/images/category/apparel\ kids.png);
     background-repeat: no-repeat;
     background-position: center;
 }
