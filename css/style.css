@@ -315,6 +315,7 @@
 .contacts-map{
     position: absolute;
     top: calc(100% - 82px);
+    background-color: #ededee;
 }
 
 /* FOOTER -separate file */
