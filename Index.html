@@ -38,11 +38,10 @@
         </form>
     </div>
     <header class="header container">
-        <nav class="header-nav">
-            <ul class="header-nav-items">
-                <li>
-                    <a href="index.html"><img src="images/union.png" class="logo link" alt="logo" height="52px" width="100px"></a>
-                </li>
+        <!-- <a class="logo-wrapper" href="index.html"><span class="visible-hidden">Design Live Kids shop</span><img src="images/union.png" class="logo link" alt="DLK logo" height="52px" width="100px"></a> -->
+        <div class="logo-wrapper"><span class="visible-hidden">Design Live Kids shop</span><img src="images/union.png" class="logo link" alt="DLK logo" height="52px" width="100px"></div>
+        <nav class="header-nav"></nav>
+            <ul class="header-nav-left">
                 <li class="header-nav-block">
                     <a href="blog.html" class="header-nav-block-link">BLOG</a>
                 </li>
@@ -52,7 +51,9 @@
                 <li class="header-nav-block">
                     <a href="#" class="header-nav-block-link">ABOUT US</a>
                 </li>
-                <li class="nav-search">
+            </ul>
+            <ul class="header-nav-right">
+                <li class="header-nav-block">
                     <a class="header-nav-block-link" href="https://www.figma.com/file/VO1kn2CjwCKfqF5mOJjX6o/DL-Academy---Personal-HTML%2FCSS-project-(Copy)"><img src="images/search.png" alt="search icon" height="17px" width="17px"></a>
                 </li>
                 <li class="header-nav-block">
@@ -88,17 +89,17 @@
         <section class="product-block block">
             <h2 class="block-title">CATEGORY PRODUCTS</h2>
             <ul class="product-block-list">
-                <li>
-                    <a href="#" class="product-block-item apparel-kids">APPAREL KIDS</a>
+                <li class="product-block-item apparel-kids">
+                    <a href="#" class="product-block-link">APPAREL KIDS</a>
                 </li>
-                <li>
-                    <a href="#" class="product-block-item holiday-shop">HOLIDAY SHOP</a>
+                <li class="product-block-item holiday-shop">
+                    <a href="#" class="product-block-link">HOLIDAY SHOP</a>
                 </li>
-                <li>
-                    <a href="toys.html" class="product-block-item toys">TOYS</a>
+                <li class="product-block-item toys">
+                    <a href="toys.html" class="product-block-link">TOYS</a>
                 </li>
-                <li>
-                    <a href="#" class="product-block-item accessories">ACCESSORIES</a>
+                <li class="product-block-item accessories">
+                    <a href="#" class="product-block-link">ACCESSORIES</a>
                 </li>
             </ul>
             <div class="product-block-nav">
@@ -118,7 +119,7 @@
                 <div class="services-block-text">
                     <div class="services-block-menu">
                         <h3 class="block-title services-block-menu-title">DELIVERY</h3>
-                        <a href="#" class="services-block-menu-item selected"> Delivery</a>
+                        <a href="#" class="services-block-menu-item services-block-menu-item-selected"> Delivery</a>
                         <a href="#" class="services-block-menu-item"> Guarantee</a>
                         <a href="#" class="services-block-menu-item"> Credit</a>
                     </div>

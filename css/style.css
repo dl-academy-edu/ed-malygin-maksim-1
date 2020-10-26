@@ -66,7 +66,6 @@
     position: absolute;
     bottom: 0px;
     left: 445px;
-    /* right: 99px; */
     height: 461px;
     width: 635.49px;
     margin-right: 99px;
@@ -99,56 +98,56 @@
 }
 
 .product-block-item{
-    text-decoration: none;
+    width: 280px;
+    height: 270px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-block-link:hover{
+    text-decoration: underline;
+}
+
+.product-block-link:active{
+    cursor: none;
+}
+
+.product-block-link{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 280px;
-    height: 270px;
-    margin: 10px;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
     font-family: "Montserrat", "Century Gothic", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 32px;
-    /* identical to box height */
     color: #FFFFFF;
-}
 
-.product-block-item:hover{
-    text-decoration: underline;
-}
-
-.product-block-item:active{
-    cursor: none;
 }
 
 .apparel-kids{
     background-color: #DBE4DB;
     background-image: url(/images/category/apparel\ kids.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .holiday-shop{
     background-color:#EADDD3;
     background-image: url(/images/category/holiday.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .toys{
     background-color:#F8F2DA;
     background-image: url(/images/category/toys.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .accessories{
     background-color:#D5D4E1;
     background-image: url(/images/category/accessories.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .product-block-nav{
@@ -223,11 +222,19 @@
     line-height: 32px;
 }
 
-.services-block-menu-item.selected{
+.services-block-menu-item-selected{
+    position: relative;
     font-weight: bold;
+}
+
+.services-block-menu-item-selected::before {
+    content: "";
+    height: 55px;
+    width: 326px;
+    left: -60px;
+    top: 0px;
+    position: absolute;
     background-color: rgba(112, 187, 220, 0.2);
-    margin-left: -60px;
-    padding-left: 60px;
 }
 
 .services-block-content-inner{
@@ -246,6 +253,7 @@
 .partners-block-list{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .partners-block-list-link{
@@ -269,7 +277,8 @@
 
 .buy-and-contacts-block{
     background-color: #E1F0F7;
-    margin: 28px;
+    margin-left: 28px;
+    margin-right: 28px;
     margin-bottom: 147px;
     padding-left: 30px;
     padding-right: 30px;
@@ -277,8 +286,7 @@
 }
 
 .buy-and-contacts-block .block-title{
-    position: absolute;
-    top: -26px;
+    margin-top: -26px;
 }
 
 .buy-and-contacts-block-subtitle{
@@ -287,7 +295,7 @@
     font-weight: normal;
     font-size: 26px;
     line-height: 32px;
-    margin-top: 31px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -307,7 +315,7 @@
 }
 
 .contacts-text{
-    margin-top: 41px;
+    margin-top: 20px;
     margin-bottom: 102px;
     font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;

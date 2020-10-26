@@ -1,16 +1,24 @@
 .header{
     margin-top: 50px;
     margin-bottom: 60px;
+    display: flex;
 }
 
 .header-nav{
 }
 
-.header-nav-items{
+.logo-wrapper{
+    display: flex;
+    align-content: center;
+}
+
+.header-nav-left, .header-nav-right{
     display: flex;
     align-items: center;
-    display: flex;
-    text-transform: uppercase;
+}
+
+.header-nav-left{
+    margin-right: auto;
 }
 
 .logo{
@@ -38,12 +46,6 @@
     opacity: 0.2;
 }
 
-.nav-search{
-    margin: 14px;
-    margin-left: auto;
-}
-
-.header-nav-block:last-child>a{
+.header-nav-right a{
     font-weight: 700;
-
 }
