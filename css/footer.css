@@ -1,0 +1,207 @@
+.footer{
+    background-color: #434343;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer a:hover{
+    opacity: 0.5;
+}
+
+.footer a:active{
+    opacity: 0.2;
+}
+
+.footer-links-connects{
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-block{
+    margin: 10px;
+    margin-top: 0px;
+    width: 100%;
+}
+.footer-block-rating-wrapper{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.footer-block-title{
+    margin: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AAAAAA;
+}
+
+.footer-block-link{
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.line{
+    height: 1px;
+    background-color: #666666;
+    width: 100%;
+    margin-top: 23px;
+    margin-bottom: 28px;
+}
+
+.connect-inner{
+    display: flex;
+}
+
+.email{
+    background-color: #666666;
+    border: none;
+    width: 100%;
+    padding-left: 15px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #EBEBEB;
+    ;
+}
+
+.button-connect{
+    width: 81px;
+    height: 40px;
+}
+
+.social-links{
+    display: flex;
+    margin-top: 25px;
+}
+
+.social-link{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 15px;
+    background-color: #666666;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social-links-facebook{
+    background-image: url(/images/connect/facebook.png);
+}
+
+.social-links-twitter{
+    background-image: url(/images/connect/twitter.png);
+}
+
+.social-links-pinterest{
+    background-image: url(/images/connect/pinterest.png);
+}
+
+.social-links-instagram{
+    background-image: url(/images/connect/instagram.png);
+}
+
+.footer-block-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-block-footer{
+    width: 100%;
+}
+
+.footer-block-copyright{
+    margin-bottom: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.autors{
+    text-decoration: none;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #A2A2A2;
+    display: flex;
+}
+
+
+/* звёздочки рейтинга */
+
+.info-list-company{
+    display: flex;
+}
+
+.info-list-company:hover *{
+    color: #C29974;
+}
+
+.company_rating{
+    margin-right: 25px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.rating-area {
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    align-items: center;
+    margin: 0;
+}
+
+.rating-area:not(:checked) > input {
+    display: none;
+}
+
+.rating-area:not(:checked) > label {
+    cursor: pointer;
+}
+
+.rating-area label{
+    width: 17px;
+    height: 16px;
+    margin-right: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/images/star.png);
+
+}
+
+.rating-area:not(:checked) > label:before {
+    content: "";
+}
+
+.rating-area > input:checked ~ label {
+    background-image: url(/images/star-active.png);
+}
+
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+    background-image: url(/images/star-hover.png);
+}

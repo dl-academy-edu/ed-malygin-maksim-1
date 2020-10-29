@@ -1,0 +1,117 @@
+@import "common.css";
+@import "header.css";
+@import "footer.css";
+
+/*HEADER - separate file*/
+
+
+.product-block-list-first{
+    margin-bottom: 1px;
+    display: flex;
+    margin-left: -10px;
+    margin-bottom: 20px;
+}
+
+.product-block-list-second{
+    margin-top: 20px;
+    margin-bottom: 45px;
+    margin-left: 190px;
+    display: flex;
+}
+
+.product-block-item{
+    width: 280px;
+    height: 270px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-block-link:hover{
+    text-decoration: underline;
+}
+
+.product-block-link:active{
+    cursor: none;
+}
+
+.product-block-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    font-family: "Montserrat", "Century Gothic", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+}
+
+.apparel-kids{
+    background-color: #DBE4DB;
+    background-image: url(/images/category/apparel\ kids.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.holiday-shop{
+    background-color:#EADDD3;
+    background-image: url(/images/category/holiday.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.toys{
+    background-color:#F8F2DA;
+    background-image: url(/images/category/toys.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.accessories{
+    background-color:#D5D4E1;
+    background-image: url(/images/category/accessories.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sale{
+    background-color:#F3D0DB;
+    background-image: url(/images/category/sale.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.apparel-adults{
+    background-color:#E5EAF8;
+    background-image: url(/images/category/apparel\ adults.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-block-title{
+    margin-left: 200px;
+    font-family: "Montserrat", "Century Gothic", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    color: #1E0606;
+}
+
+.product-block-description{
+    margin-left: 200px;
+    margin-bottom: 55px;
+    max-width: 680px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}

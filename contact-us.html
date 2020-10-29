@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <title>DLK</title>
         <link rel="stylesheet" type="text/css" href="normalize.css">
-        <link rel="stylesheet" type="text/css" href="css/catalog.css">
-        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400;1,700&family=Montserrat:wght@300;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" type="text/css" href="css/contact-us.css">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400;1,700&family=Montserrat:wght@300;600;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <header class="header container">
@@ -34,49 +34,42 @@
             </nav>
         </header>
         <main class="container">
-            <h1 class="page-title">CATEGORY PRODUCTS</h1>
+            <h1 class="page-title">CONTACT US</h1>
             <div class="bread-crumbs">
-                <a href="Index.html" class="bread-crumbs-link">Home </a>
+                <a href="index.html" class="bread-crumbs-link">Home </a>
                 <div class="bread-crumbs-arrow"></div>
-                <a class="bread-crumbs-here">Catalog</a>
+                <a class="bread-crumbs-here">Contact Us</a>
             </div>
-            <section class="product-block">
-                <h2 class="visible-hidden">Category Products</h2>
-                <ul class="product-block-list-first">
-                    <li class="product-block-item apparel-kids">
-                        <a href="#" class=" product-block-link">apparel kids</a>
-                    </li>
-                    <li class="product-block-item holiday-shop">
-                        <a href="#" class=" product-block-link">holiday shop</a>
-                    </li>
-                    <li class="product-block-item toys">
-                        <a href="toys.html" class=" product-block-link">toys</a>
-                    </li>
-                </ul>
-                <ul class="product-block-list-second">
-                    <li class="product-block-item accessories">
-                        <a href="#" class=" product-block-link">accessories</a>
-                    </li>
-                    <li class="product-block-item sale">
-                        <a href="#" class=" product-block-link">sale</a>
-                    </li>
-                    <li class="product-block-item apparel-adults">
-                        <a href="#" class=" product-block-link">apparel adults</a>
-                    </li>
-                </ul>
-                    <h2 class="product-block-title">Product description</h2>
-                    <div class="product-block-description">
-                        <p>
-                            Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.
-                        </p>
-                        <p>
-                            A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.
-                        </p>
-                        <p>
-                            The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.
-                        </p>
+            <div class="main-inner">
+                <form action="Contact-us" class="popup-form">
+                    <div class="input">
+                        <label class="input-label" for="name">Name</label>
+                        <input class="input-item" type="text" id="name">
                     </div>
-            </section>
+                    <div class="inputs-two-row">
+                        <div class="input">
+                            <label class="input-label" for="phone">Phone</label>
+                            <input class="input-item" type="text" id="phone">
+                        </div>
+                        <div class="input">
+                            <label class="input-label" for="email">Email</label>
+                            <input class="input-item" type="email" id="email">
+                        </div>
+                    </div>
+                    <div class="input">
+                        <label class="input-label" for="message">Message</label>
+                        <textarea class="input-item textarea" id="message"></textarea>
+                    </div>
+                        <input class="check-radio-item visible-hidden" type="checkbox" id="consent">
+                        <label for="consent" class="check-radio-label">By clicking on the button, you consent to the processing of your personal data</label>
+                    <button type="submit" class="button popup-form-button-submit disabled-button">SUBMIT</button>
+                </form>
+                <div class="message">
+                    <p>Our support team are on-hand to assist with any issues you are experiencing.</p>
+                    <p>Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
+                    <p class="exclamation">AN EXPER IS WAITING TO HELP YOU!</p>
+                </div>
+            </div>
         </main>
         <footer class="footer">
             <div class="container">

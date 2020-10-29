@@ -1,0 +1,51 @@
+.header{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: flex;
+}
+
+.header-nav{
+}
+
+.logo-wrapper{
+    display: flex;
+    align-content: center;
+}
+
+.header-nav-left, .header-nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-left{
+    margin-right: auto;
+}
+
+.logo{
+    margin-right: 50px;
+}
+
+.header-nav-block{
+    margin: 10px;
+}
+
+.header-nav-block-link{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-block-link:hover{
+    opacity: 0.5;
+}
+
+.header-nav-block-link:active{
+    opacity: 0.2;
+}
+
+.header-nav-right a{
+    font-weight: 700;
+}

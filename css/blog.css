@@ -1,0 +1,118 @@
+@import "common.css";
+@import "header.css";
+@import "footer.css";
+
+/*HEADER - separate file*/
+
+/* blog  */
+
+.blog-block-posts{
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog-post{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+}
+
+.blog-post-image{
+    background-color: #efefef;
+}
+
+.blog-post-date{
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #818181;
+}
+
+.blog-post h2{
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+.blog-post-title{
+    text-decoration: none;
+    font-family: "Montserrat", "Century Gothic", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1E0606;
+}
+
+.blog-post-title:hover{
+    text-decoration: underline;
+}
+
+.blog-post-text{
+    margin: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1E0606;
+}
+
+/* navigation */
+
+.blog-block-nav{
+    margin-top: 23px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.previous-page{
+    height: 26px;
+    width: 20px;
+    background-image: url(/images/white-arrow-left.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: auto;
+}
+
+.next-page{
+    height: 26px;
+    width: 20px;
+    background-image: url(/images/white-arrow-right.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+}
+
+.nav-page{
+    margin: 33px;
+    text-decoration: none;
+    font-family: "Montserrat", "Century Gothic", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1E0606;
+}
+
+.nav-page:hover{
+    opacity: 0.5;
+}
+
+.nav-page:active{
+    opacity: 0.2;
+}
+
+.current-page{
+    color: #C29974;
+    pointer-events: none;
+}
